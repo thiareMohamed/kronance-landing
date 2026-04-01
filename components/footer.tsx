@@ -4,11 +4,11 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 
 const footerLinks = [
-  { key: "product", href: "#platform" },
-  { key: "docs", href: "#technology" },
+  { key: "product", href: "#services" },
+  { key: "docs", href: "#projects" },
   { key: "security", href: "#security" },
-  { key: "company", href: "#use-cases" },
-  { key: "contact", href: "#final-cta" },
+  { key: "company", href: "#about" },
+  { key: "contact", href: "#contact" },
 ] as const;
 
 export function Footer() {
