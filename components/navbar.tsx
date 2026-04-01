@@ -11,13 +11,12 @@ import { ThemeToggle } from "@/components/theme-toggle";
 export function Navbar() {
   const t = useTranslations("navbar");
   const navItems = [
-    { href: "#about", label: t("about") },
-    { href: "#services", label: t("services") },
-    { href: "#platform", label: t("platform") },
-    { href: "#technology", label: t("technology") },
-    { href: "#security", label: t("security") },
-    { href: "#projects", label: t("projects") },
-    { href: "#contact", label: t("contact") },
+    { href: "/about", label: t("about") },
+    { href: "/services", label: t("services") },
+    { href: "/technology", label: t("technology") },
+    { href: "/security", label: t("security") },
+    { href: "/projects", label: t("projects") },
+    { href: "/contact", label: t("contact") },
   ];
 
   return (
@@ -32,28 +31,32 @@ export function Navbar() {
 
         <nav className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
               className="text-sm text-muted-foreground transition hover:text-foreground"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3">
           <LanguageSwitcher />
           <ThemeToggle />
-          <motion.a
+          <motion.div
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            href="#final-cta"
-            className="inline-flex items-center gap-2 rounded-full border border-cyan-300/40 bg-gradient-to-r from-violet-500 to-cyan-500 px-4 py-2 text-sm font-medium text-white shadow-[0_0_24px_rgba(34,211,238,0.35)] transition hover:shadow-[0_0_32px_rgba(34,211,238,0.45)]"
+            className="inline-flex"
           >
-            <Sparkles className="h-4 w-4" aria-hidden />
-            {t("cta")}
-          </motion.a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full border border-cyan-300/40 bg-gradient-to-r from-violet-500 to-cyan-500 px-4 py-2 text-sm font-medium text-white shadow-[0_0_24px_rgba(34,211,238,0.35)] transition hover:shadow-[0_0_32px_rgba(34,211,238,0.45)]"
+            >
+              <Sparkles className="h-4 w-4" aria-hidden />
+              {t("cta")}
+            </Link>
+          </motion.div>
         </div>
       </Container>
     </header>

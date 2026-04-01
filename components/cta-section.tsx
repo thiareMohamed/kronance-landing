@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/lib/navigation";
 import { SectionWrapper } from "@/components/section-wrapper";
 
 export function CTASection() {
@@ -22,13 +23,13 @@ export function CTASection() {
             <h3 className="text-2xl font-semibold md:text-3xl">{t("title")}</h3>
             <p className="mt-2 max-w-2xl text-muted-foreground">{t("description")}</p>
           </div>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-violet-600 to-cyan-500 px-5 py-3 text-sm font-semibold text-white shadow-[0_0_24px_-8px_rgba(34,211,238,0.6)] transition hover:brightness-110"
           >
             {t("button")}
             <ArrowRight className="h-4 w-4" aria-hidden />
-          </a>
+          </Link>
         </div>
       </motion.div>
     </SectionWrapper>
