@@ -1,0 +1,256 @@
+{
+  "navbar": {
+    "platform": "Plateforme",
+    "security": "Sécurité",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "cta": "Démarrer"
+  },
+  "hero": {
+    "badge": "Plateforme globale pour les équipes modernes",
+    "title": "Construisez, sécurisez, déployez et passez à l'échelle — sur une seule plateforme",
+    "subtitle": "Plateforme unifiée pour le DevOps, l'IA, le DevSecOps et le développement web/mobile moderne.",
+    "primaryCta": "Commencer",
+    "secondaryCta": "Explorer la plateforme"
+  },
+  "trust": {
+    "title": "Adoptée par des développeurs, des startups et des entreprises"
+  },
+  "corePlatform": {
+    "eyebrow": "Plateforme centrale",
+    "title": "Tous les piliers de votre delivery réunis",
+    "items": {
+      "devops": {
+        "title": "Plateforme DevOps",
+        "description": "CI/CD, déploiement et observabilité en temps réel."
+      },
+      "devsecops": {
+        "title": "DevSecOps",
+        "description": "Scanning sécurité, gestion des secrets et conformité."
+      },
+      "ai": {
+        "title": "Intégration IA",
+        "description": "API IA, automatisations intelligentes et workflows augmentés."
+      },
+      "webMobile": {
+        "title": "Dev Web & Mobile",
+        "description": "Concevez et livrez vos apps plus vite avec des outils intégrés."
+      },
+      "apiBackend": {
+        "title": "API & Backend",
+        "description": "Construisez des API évolutives et des services backend fiables."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Fonctionnalités",
+    "title": "Conçu pour la vélocité, la fiabilité et la sécurité",
+    "items": {
+      "realtime": {
+        "title": "Déploiement en temps réel",
+        "description": "Push vers la prod en toute confiance, sans interruption."
+      },
+      "iac": {
+        "title": "Infrastructure as Code",
+        "description": "Standardisez vos environnements avec des configurations déclaratives."
+      },
+      "automation": {
+        "title": "Automatisation pilotée par IA",
+        "description": "Réduisez le travail manuel via des workflows intelligents."
+      },
+      "secure": {
+        "title": "Pipelines sécurisés",
+        "description": "Intégrez politiques, scanning et contrôles au sein du pipeline."
+      },
+      "multiEnv": {
+        "title": "Support multi-environnements",
+        "description": "Gérez dev, staging et production avec gouvernance unifiée."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "steps": [
+      {
+        "title": "Créez votre workspace",
+        "description": "Configurez projets, équipes et contextes cloud en quelques minutes."
+      },
+      {
+        "title": "Construisez et intégrez",
+        "description": "Connectez code, API, IA et pipelines de sécurité sur un seul hub."
+      },
+      {
+        "title": "Déployez et passez à l'échelle mondiale",
+        "description": "Déployez à l'échelle mondiale avec conformité et observabilité intégrées."
+      }
+    ]
+  },
+  "developerExperience": {
+    "eyebrow": "Expérience développeur",
+    "title": "Pensé pour les développeurs exigeants",
+    "description": "Une expérience orientée code avec intégration native API, déploiement et sécurité.",
+    "apiTitle": "Exemple d'appel API",
+    "apiLanguage": "API",
+    "deployTitle": "Configuration de déploiement",
+    "deployLanguage": "YAML",
+    "readDocs": "Lire la documentation"
+  },
+  "useCases": {
+    "title": "Cas d'usage",
+    "subtitle": "Kronance accompagne toutes les équipes techniques.",
+    "developers": {
+      "title": "Développeurs",
+      "description": "Livrez des produits plus vite avec un workflow unifié."
+    },
+    "startups": {
+      "title": "Startups",
+      "description": "Accélérez de l'idée à la mise en production avec une stack simple."
+    },
+    "enterprises": {
+      "title": "Entreprises",
+      "description": "Renforcez gouvernance, fiabilité et conformité à grande échelle."
+    },
+    "devopsTeams": {
+      "title": "Équipes DevOps",
+      "description": "Automatisez l'infrastructure et standardisez les pipelines."
+    }
+  },
+  "ai": {
+    "eyebrow": "Intelligence artificielle",
+    "title": "IA intégrée à chaque étape",
+    "description": "Accélérez delivery et sécurité grâce à une couche IA orientée ingénierie.",
+    "items": {
+      "automation": {
+        "title": "Automatisation intelligente",
+        "description": "Déclenchez des actions contextuelles sur votre cycle logiciel."
+      },
+      "generation": {
+        "title": "Génération assistée de code",
+        "description": "Produisez snippets, templates et configurations plus rapidement."
+      },
+      "analysis": {
+        "title": "Analyse sécurité IA",
+        "description": "Identifiez les risques et remédiations prioritaires en continu."
+      }
+    }
+  },
+  "security": {
+    "title": "Sécurité et DevSecOps de niveau enterprise",
+    "subtitle": "Intégrez scanning, protection et conformité dans vos pipelines de livraison.",
+    "items": [
+      {
+        "title": "Scanning continu",
+        "description": "Détectez vulnérabilités et dépendances critiques tôt dans le cycle."
+      },
+      {
+        "title": "Protection native",
+        "description": "Gérez secrets, politiques et protections runtime sur toute la plateforme."
+      },
+      {
+        "title": "Conformité prête à l'audit",
+        "description": "Centralisez les preuves et rapports pour SOC2/ISO et exigences internes."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarification claire pour toutes les tailles d'équipes",
+    "subtitle": "Commencez gratuitement, évoluez sans changer de plateforme.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "0€ / mois",
+        "description": "Parfait pour les projets personnels et tests.",
+        "features": [
+          "Déploiements de base",
+          "Workflows IA limités",
+          "Monitoring communautaire"
+        ],
+        "cta": "Commencer"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "49€ / mois",
+        "description": "Pour les équipes produits qui montent en charge.",
+        "features": [
+          "CI/CD avancé et automatisation",
+          "Politiques DevSecOps",
+          "Workspaces multi-environnements"
+        ],
+        "cta": "Passer à Pro"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Sur mesure",
+        "description": "Pour les organisations globales à forte exigence.",
+        "features": [
+          "Conformité et gouvernance avancées",
+          "SLA et support dédié",
+          "Architecture cloud personnalisée"
+        ],
+        "cta": "Contacter l'équipe"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent les équipes",
+    "items": [
+      {
+        "quote": "Kronance a aligné nos équipes plateforme et applicatives dans un même flux de delivery.",
+        "name": "Camille Durant",
+        "role": "Head of Engineering, Novagrid"
+      },
+      {
+        "quote": "Nous avons réduit drastiquement notre temps de déploiement tout en améliorant la sécurité.",
+        "name": "Marc Leclerc",
+        "role": "Lead DevOps, Orbital Labs"
+      },
+      {
+        "quote": "La couche IA nous fait gagner un temps énorme sur l'automatisation et les revues.",
+        "name": "Sofia Benali",
+        "role": "CTO, Fluxmind"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": {
+      "1": {
+        "question": "Kronance est-elle une plateforme financière ?",
+        "answer": "Non. Kronance est une plateforme technologique orientée développement, DevOps, DevSecOps, IA et infrastructure cloud."
+      },
+      "2": {
+        "question": "Puis-je connecter mes outils existants ?",
+        "answer": "Oui, Kronance est conçue pour s'intégrer à votre écosystème actuel : git providers, cloud vendors, CI/CD et outils de sécurité."
+      },
+      "3": {
+        "question": "La plateforme prend-elle en charge les équipes distribuées ?",
+        "answer": "Absolument. Les workspaces, rôles et environnements sont pensés pour la collaboration internationale."
+      },
+      "4": {
+        "question": "Quelle place occupe l'IA dans Kronance ?",
+        "answer": "L'IA est native : automatisation contextuelle, génération assistée de code et analyse sécurité continue."
+      },
+      "5": {
+        "question": "Le mode dark/light est-il pris en charge ?",
+        "answer": "Oui, avec préférence système et bascule manuelle persistée côté client."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Commencez à construire le futur avec Kronance",
+    "description": "Centralisez votre stack technique, sécurisez vos workflows et passez à l'échelle mondiale.",
+    "button": "Lancer Kronance"
+  },
+  "footer": {
+    "description": "Plateforme globale tout-en-un pour le développement moderne, le cloud, le DevOps, le DevSecOps et l'IA.",
+    "navigationAria": "Navigation du pied de page",
+    "links": {
+      "product": "Produit",
+      "docs": "Docs",
+      "security": "Sécurité",
+      "company": "Entreprise",
+      "contact": "Contact"
+    },
+    "copyright": "© {year} Kronance. Tous droits réservés."
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "title": "Kronance | Build, Secure, Deploy and Scale",
+    "description": "Kronance is the all-in-one platform for modern development, DevOps, DevSecOps and AI-powered delivery."
+  },
+  "navbar": {
+    "platform": "Platform",
+    "security": "Security",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "cta": "Get Started"
+  },
+  "hero": {
+    "badge": "Unified Platform for Modern Teams",
+    "title": "Build, Secure, Deploy and Scale — All in One Platform",
+    "subtitle": "A unified platform for DevOps, AI and modern software development teams.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Explore Platform"
+  },
+  "trust": {
+    "title": "Trusted by developers, startups and enterprises"
+  },
+  "corePlatform": {
+    "eyebrow": "Core Platform",
+    "title": "Everything your engineering teams need in one place",
+    "items": {
+      "devops": {
+        "title": "DevOps Platform",
+        "description": "CI/CD pipelines, deployments and monitoring from one control plane."
+      },
+      "devsecops": {
+        "title": "DevSecOps",
+        "description": "Security scanning, secrets management and compliance integrated by design."
+      },
+      "ai": {
+        "title": "AI Integration",
+        "description": "AI APIs, copilots and intelligent workflows embedded into your stack."
+      },
+      "webMobile": {
+        "title": "Web & Mobile Dev",
+        "description": "Ship modern applications faster with integrated cloud-native tools."
+      },
+      "apiBackend": {
+        "title": "API & Backend",
+        "description": "Create scalable APIs and resilient backend services in minutes."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Built for performance, reliability and velocity",
+    "items": {
+      "realtime": {
+        "title": "Real-time deployment",
+        "description": "Deploy instantly with progressive rollouts and live observability."
+      },
+      "iac": {
+        "title": "Infrastructure as code",
+        "description": "Define cloud architecture declaratively and keep environments consistent."
+      },
+      "automation": {
+        "title": "AI-powered automation",
+        "description": "Automate repetitive engineering tasks with contextual intelligence."
+      },
+      "secure": {
+        "title": "Secure pipelines",
+        "description": "Enforce policy checks and vulnerability scanning in every delivery stage."
+      },
+      "multiEnv": {
+        "title": "Multi-environment support",
+        "description": "Manage preview, staging and production environments with full control."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      {
+        "title": "Create your workspace",
+        "description": "Spin up your team workspace with governance, security and project templates."
+      },
+      {
+        "title": "Build & integrate",
+        "description": "Connect source control, APIs and infrastructure to orchestrate your workflows."
+      },
+      {
+        "title": "Deploy & scale globally",
+        "description": "Release confidently and scale services across regions with built-in resilience."
+      }
+    ]
+  },
+  "developerExperience": {
+    "eyebrow": "Developer Experience",
+    "title": "Ship faster with a delightful developer workflow",
+    "description": "From API calls to deployment configuration, Kronance gives teams a cohesive DX.",
+    "apiTitle": "API call",
+    "apiLanguage": "HTTP",
+    "deployTitle": "Deployment config",
+    "deployLanguage": "YAML",
+    "readDocs": "Read Docs"
+  },
+  "useCases": {
+    "title": "Designed for every engineering profile",
+    "subtitle": "Kronance adapts to product velocity, security requirements and operational maturity.",
+    "developers": {
+      "title": "Developers",
+      "description": "Build and ship full-stack products with integrated tooling."
+    },
+    "startups": {
+      "title": "Startups",
+      "description": "Launch fast, iterate quickly and scale with confidence."
+    },
+    "enterprises": {
+      "title": "Enterprises",
+      "description": "Standardize delivery with governance, compliance and reliability."
+    },
+    "devopsTeams": {
+      "title": "DevOps Teams",
+      "description": "Automate operations, monitor systems and improve deployment quality."
+    }
+  },
+  "ai": {
+    "eyebrow": "AI Platform Layer",
+    "title": "Intelligence embedded across your software lifecycle",
+    "description": "Use AI as a force multiplier for automation, code generation and risk reduction.",
+    "items": {
+      "automation": {
+        "title": "Intelligent automation",
+        "description": "Let Kronance optimize recurring workflows with contextual recommendations."
+      },
+      "generation": {
+        "title": "Code generation",
+        "description": "Accelerate feature delivery with AI-assisted implementation patterns."
+      },
+      "analysis": {
+        "title": "Security analysis",
+        "description": "Detect vulnerabilities early using AI-enhanced threat intelligence."
+      }
+    }
+  },
+  "security": {
+    "title": "Enterprise-grade DevSecOps from day one",
+    "subtitle": "Integrate scanning, protection and compliance controls directly into your pipelines.",
+    "items": [
+      {
+        "title": "Continuous scanning",
+        "description": "Scan code, dependencies and infrastructure in every commit and release."
+      },
+      {
+        "title": "Runtime protection",
+        "description": "Protect workloads with policy-based controls and secret isolation."
+      },
+      {
+        "title": "Compliance readiness",
+        "description": "Map delivery workflows to SOC 2, ISO 27001 and internal security baselines."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing built for growth",
+    "subtitle": "Start free, scale with Pro, and unlock enterprise-grade governance when needed.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "description": "For individuals and small prototypes.",
+        "features": [
+          "1 workspace",
+          "Basic CI/CD",
+          "Community support"
+        ],
+        "cta": "Start Free"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$49/mo",
+        "description": "For fast-moving product teams.",
+        "features": [
+          "Unlimited projects",
+          "Advanced automation",
+          "Priority support"
+        ],
+        "cta": "Upgrade to Pro"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "For large organizations with strict requirements.",
+        "features": [
+          "SSO & RBAC",
+          "Compliance workflows",
+          "Dedicated success manager"
+        ],
+        "cta": "Contact Sales"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What teams say about Kronance",
+    "items": [
+      {
+        "quote": "Kronance helped us unify dev, security and deployment workflows without slowing teams down.",
+        "name": "Maya Chen",
+        "role": "VP Engineering, Nebula Labs"
+      },
+      {
+        "quote": "We replaced multiple tools with one platform and reduced release friction dramatically.",
+        "name": "Lucas Martin",
+        "role": "CTO, BlueOrbit"
+      },
+      {
+        "quote": "The AI and DevSecOps layers gave us speed and confidence at enterprise scale.",
+        "name": "Amina Rahal",
+        "role": "Head of Platform, VectorGrid"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "1": {
+        "question": "Is Kronance only for DevOps teams?",
+        "answer": "No. Kronance supports developers, platform teams, startups and enterprises with a unified product experience."
+      },
+      "2": {
+        "question": "Does Kronance include built-in security features?",
+        "answer": "Yes. Security scanning, secrets management and compliance workflows are integrated into the platform."
+      },
+      "3": {
+        "question": "Can we use Kronance with our existing cloud providers?",
+        "answer": "Absolutely. Kronance is designed to integrate with multi-cloud and existing infrastructure stacks."
+      },
+      "4": {
+        "question": "How does AI help in Kronance?",
+        "answer": "AI powers workflow automation, code assistance and security analysis to speed up safe delivery."
+      },
+      "5": {
+        "question": "Is there a free plan?",
+        "answer": "Yes. You can start with a free plan and upgrade as your team scales."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Start building the future with Kronance",
+    "description": "Launch modern products with integrated DevOps, DevSecOps and AI capabilities.",
+    "button": "Get Started"
+  },
+  "footer": {
+    "description": "Global technology platform for modern engineering organizations.",
+    "navigationAria": "Footer navigation",
+    "links": {
+      "product": "Product",
+      "docs": "Docs",
+      "security": "Security",
+      "company": "Company",
+      "contact": "Contact"
+    },
+    "copyright": "© {year} Kronance. All rights reserved."
+  }
+}
