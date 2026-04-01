@@ -5,8 +5,8 @@
   },
   "navbar": {
     "platform": "Platform",
+    "technology": "Technology",
     "security": "Security",
-    "pricing": "Pricing",
     "faq": "FAQ",
     "cta": "Get Started"
   },
@@ -122,15 +122,25 @@
       }
     ]
   },
-  "developerExperience": {
-    "eyebrow": "Developer Experience",
-    "title": "Ship faster with a delightful developer workflow",
-    "description": "From API calls to deployment configuration, Kronance gives teams a cohesive DX.",
-    "apiTitle": "API call",
-    "apiLanguage": "HTTP",
-    "deployTitle": "Deployment config",
-    "deployLanguage": "YAML",
-    "readDocs": "Read Docs"
+  "technology": {
+    "eyebrow": "Technology",
+    "title": "A resilient technology backbone for digital businesses",
+    "description": "Kronance provides modular cloud architecture, AI-enabled operations and security-by-design practices for long-term growth.",
+    "pillars": [
+      {
+        "title": "Modular cloud infrastructure",
+        "description": "Composable architecture designed for performance, resilience and progressive expansion."
+      },
+      {
+        "title": "AI-enabled operations",
+        "description": "Operational intelligence for automation, anomaly detection and delivery optimization."
+      },
+      {
+        "title": "Security-first governance",
+        "description": "Integrated controls, observability and compliance frameworks aligned with enterprise standards."
+      }
+    ],
+    "cta": "Explore our technology vision"
   },
   "useCases": {
     "title": "Designed for every engineering profile",
@@ -189,45 +199,6 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing built for growth",
-    "subtitle": "Start free, scale with Pro, and unlock enterprise-grade governance when needed.",
-    "plans": {
-      "free": {
-        "name": "Free",
-        "price": "$0",
-        "description": "For individuals and small prototypes.",
-        "features": [
-          "1 workspace",
-          "Basic CI/CD",
-          "Community support"
-        ],
-        "cta": "Start Free"
-      },
-      "pro": {
-        "name": "Pro",
-        "price": "$49/mo",
-        "description": "For fast-moving product teams.",
-        "features": [
-          "Unlimited projects",
-          "Advanced automation",
-          "Priority support"
-        ],
-        "cta": "Upgrade to Pro"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "Custom",
-        "description": "For large organizations with strict requirements.",
-        "features": [
-          "SSO & RBAC",
-          "Compliance workflows",
-          "Dedicated success manager"
-        ],
-        "cta": "Contact Sales"
-      }
-    }
-  },
   "testimonials": {
     "title": "What teams say about Kronance",
     "items": [
@@ -268,8 +239,8 @@
         "answer": "AI powers workflow automation, code assistance and security analysis to speed up safe delivery."
       },
       "5": {
-        "question": "Is there a free plan?",
-        "answer": "Yes. You can start with a free plan and upgrade as your team scales."
+        "question": "Do you provide corporate support and strategic guidance?",
+        "answer": "Yes. Kronance works with organizations through architecture advisory, platform onboarding and long-term technology enablement."
       }
     }
   },

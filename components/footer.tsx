@@ -5,7 +5,7 @@ import { Link } from "@/lib/navigation";
 
 const footerLinks = [
   { key: "product", href: "#platform" },
-  { key: "docs", href: "#developer-experience" },
+  { key: "docs", href: "#technology" },
   { key: "security", href: "#security" },
   { key: "company", href: "#use-cases" },
   { key: "contact", href: "#final-cta" },

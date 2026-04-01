@@ -52,7 +52,7 @@ export function HeroSection() {
               className="mt-10 flex flex-col gap-4 sm:flex-row"
             >
               <a
-                href="#pricing"
+                href="#final-cta"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-violet-600 to-blue-500 px-6 py-3 font-medium text-white shadow-lg shadow-blue-500/25 transition hover:scale-[1.02]"
               >
                 {t("primaryCta")}

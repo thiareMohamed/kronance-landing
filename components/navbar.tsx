@@ -12,8 +12,8 @@ export function Navbar() {
   const t = useTranslations("navbar");
   const navItems = [
     { href: "#platform", label: t("platform") },
+    { href: "#technology", label: t("technology") },
     { href: "#security", label: t("security") },
-    { href: "#pricing", label: t("pricing") },
     { href: "#faq", label: t("faq") },
   ];
 
