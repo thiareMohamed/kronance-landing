@@ -4,9 +4,13 @@
     "description": "Kronance is the all-in-one platform for modern development, DevOps, DevSecOps and AI-powered delivery."
   },
   "navbar": {
+    "about": "About",
+    "services": "Services",
     "platform": "Platform",
     "technology": "Technology",
     "security": "Security",
+    "projects": "Projects",
+    "contact": "Contact",
     "faq": "FAQ",
     "cta": "Get Started"
   },
@@ -162,6 +166,81 @@
       "description": "Automate operations, monitor systems and improve deployment quality."
     }
   },
+  "about": {
+    "eyebrow": "About Kronance",
+    "title": "A technology company focused on execution, security and scale",
+    "description": "Kronance helps organizations modernize delivery systems, strengthen cloud operations and industrialize software practices across teams and markets.",
+    "values": [
+      {
+        "title": "Mission-driven execution",
+        "description": "Turn strategic technology priorities into reliable, measurable outcomes."
+      },
+      {
+        "title": "Long-term vision",
+        "description": "Design technology foundations that sustain growth and international expansion."
+      },
+      {
+        "title": "Operational excellence",
+        "description": "Combine engineering rigor, governance and continuous improvement."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Structured technology services for modern organizations",
+    "description": "From product engineering to platform governance, Kronance supports every stage of your digital transformation.",
+    "items": [
+      {
+        "title": "Web & Mobile Engineering",
+        "description": "Design and deliver robust web and mobile applications with scalable architectures."
+      },
+      {
+        "title": "DevOps & Cloud Operations",
+        "description": "Implement CI/CD, observability and cloud operating models for reliable releases."
+      },
+      {
+        "title": "DevSecOps Integration",
+        "description": "Embed security controls and compliance standards directly into delivery workflows."
+      },
+      {
+        "title": "AI Enablement",
+        "description": "Integrate AI capabilities into business processes and engineering operations."
+      },
+      {
+        "title": "API & Backend Platforms",
+        "description": "Build resilient API and backend ecosystems ready for enterprise traffic."
+      },
+      {
+        "title": "Technology Advisory",
+        "description": "Align architecture, governance and execution with long-term business strategy."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Selected case studies and transformation initiatives",
+    "description": "Illustrative examples of how Kronance helps organizations modernize platforms and improve operational performance.",
+    "items": {
+      "one": {
+        "title": "Global logistics platform modernization",
+        "sector": "Industry",
+        "description": "Migration to cloud-native services and secure deployment pipelines across three regions.",
+        "impact": "Result: release frequency increased by 3.2x with stronger resiliency."
+      },
+      "two": {
+        "title": "Enterprise API unification program",
+        "sector": "Financial Services",
+        "description": "Consolidation of fragmented backend domains into a governed API platform.",
+        "impact": "Result: integration lead-time reduced by 46%."
+      },
+      "three": {
+        "title": "AI-assisted operations rollout",
+        "sector": "Digital Services",
+        "description": "Implementation of intelligent automation for incident triage and delivery analytics.",
+        "impact": "Result: mean time to resolution improved by 34%."
+      }
+    }
+  },
   "ai": {
     "eyebrow": "AI Platform Layer",
     "title": "Intelligence embedded across your software lifecycle",
@@ -205,17 +284,20 @@
       {
         "quote": "Kronance helped us unify dev, security and deployment workflows without slowing teams down.",
         "name": "Maya Chen",
-        "role": "VP Engineering, Nebula Labs"
+        "role": "VP Engineering",
+        "company": "Nebula Labs"
       },
       {
         "quote": "We replaced multiple tools with one platform and reduced release friction dramatically.",
         "name": "Lucas Martin",
-        "role": "CTO, BlueOrbit"
+        "role": "CTO",
+        "company": "BlueOrbit"
       },
       {
         "quote": "The AI and DevSecOps layers gave us speed and confidence at enterprise scale.",
         "name": "Amina Rahal",
-        "role": "Head of Platform, VectorGrid"
+        "role": "Head of Platform",
+        "company": "VectorGrid"
       }
     ]
   },
@@ -244,6 +326,39 @@
       }
     }
   },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Discuss your technology priorities with Kronance",
+    "description": "Share your context and objectives. Our team will get back to you with a structured next-step proposal.",
+    "info": [
+      {
+        "label": "Email",
+        "value": "contact@kronance.com"
+      },
+      {
+        "label": "Phone",
+        "value": "+33 1 89 71 45 20"
+      },
+      {
+        "label": "Head Office",
+        "value": "Paris, France"
+      }
+    ],
+    "form": {
+      "aria": "Corporate contact form",
+      "name": "Full name",
+      "email": "Work email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send request",
+      "success": "Thank you. Your message has been sent successfully."
+    }
+  },
+  "ctaSection": {
+    "title": "Looking for a strategic technology partner?",
+    "description": "Kronance supports companies from architecture decisions to execution at scale.",
+    "button": "Talk to our team"
+  },
   "finalCta": {
     "title": "Start building the future with Kronance",
     "description": "Launch modern products with integrated DevOps, DevSecOps and AI capabilities.",
@@ -254,7 +369,7 @@
     "navigationAria": "Footer navigation",
     "links": {
       "product": "Product",
-      "docs": "Docs",
+      "docs": "Projects",
       "security": "Security",
       "company": "Company",
       "contact": "Contact"

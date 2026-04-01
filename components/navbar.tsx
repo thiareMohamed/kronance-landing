@@ -11,10 +11,13 @@ import { ThemeToggle } from "@/components/theme-toggle";
 export function Navbar() {
   const t = useTranslations("navbar");
   const navItems = [
+    { href: "#about", label: t("about") },
+    { href: "#services", label: t("services") },
     { href: "#platform", label: t("platform") },
     { href: "#technology", label: t("technology") },
     { href: "#security", label: t("security") },
-    { href: "#faq", label: t("faq") },
+    { href: "#projects", label: t("projects") },
+    { href: "#contact", label: t("contact") },
   ];
 
   return (

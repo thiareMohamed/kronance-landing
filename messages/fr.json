@@ -1,8 +1,16 @@
 {
+  "metadata": {
+    "title": "Kronance | Build, Secure, Deploy and Scale",
+    "description": "Kronance est une entreprise technologique globale dédiée au développement moderne, au cloud, à la sécurité et à l'innovation IA."
+  },
   "navbar": {
+    "about": "À propos",
+    "services": "Services",
     "platform": "Plateforme",
     "technology": "Technologie",
     "security": "Sécurité",
+    "projects": "Projets",
+    "contact": "Contact",
     "faq": "FAQ",
     "cta": "Démarrer"
   },
@@ -138,6 +146,114 @@
     ],
     "cta": "Découvrir notre vision technologique"
   },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Kronance, entreprise technologique orientée impact",
+    "description": "Nous construisons des infrastructures digitales robustes pour accompagner les organisations dans la modernisation de leurs opérations, de leurs applications et de leur sécurité.",
+    "values": [
+      {
+        "title": "Mission",
+        "description": "Aider les entreprises à accélérer leur transformation numérique avec une base technologique fiable."
+      },
+      {
+        "title": "Vision",
+        "description": "Devenir un partenaire technologique de référence pour les organisations opérant à l'international."
+      },
+      {
+        "title": "Valeurs",
+        "description": "Excellence d'exécution, sécurité by design, collaboration et innovation continue."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Nos expertises structurées autour des besoins métiers",
+    "description": "Kronance accompagne les entreprises sur l'ensemble de la chaîne de valeur technologique.",
+    "items": [
+      {
+        "title": "Développement Web & Mobile",
+        "description": "Conception et livraison d'applications performantes orientées usage et scalabilité."
+      },
+      {
+        "title": "DevOps & Cloud",
+        "description": "Industrialisation des déploiements, observabilité et architecture cloud résiliente."
+      },
+      {
+        "title": "DevSecOps & Sécurité",
+        "description": "Intégration de la sécurité, de la conformité et de la gestion des risques dans le cycle delivery."
+      },
+      {
+        "title": "IA & Automatisation",
+        "description": "Mise en place de workflows intelligents et cas d'usage IA à forte valeur."
+      },
+      {
+        "title": "API & Backend Engineering",
+        "description": "Construction d'API robustes et de services backend modulaires pour vos écosystèmes digitaux."
+      },
+      {
+        "title": "Conseil Architecture",
+        "description": "Cadrage, gouvernance technologique et roadmap d'exécution alignée aux objectifs business."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Études de cas",
+    "title": "Exemples de projets menés avec nos clients",
+    "description": "Quelques cas d'usage représentatifs de nos interventions corporate.",
+    "items": {
+      "one": {
+        "title": "Modernisation d'une plateforme multi-pays",
+        "sector": "Industrie & Services",
+        "description": "Refonte d'une architecture legacy vers une stack cloud-native avec gouvernance sécurité renforcée.",
+        "impact": "Impact: réduction de 45% du temps de mise en production."
+      },
+      "two": {
+        "title": "Factory DevSecOps pour un groupe enterprise",
+        "sector": "Entreprise",
+        "description": "Standardisation des pipelines CI/CD, contrôles conformité et observabilité transverse.",
+        "impact": "Impact: amélioration de 60% de la qualité des releases."
+      },
+      "three": {
+        "title": "Accélération IA sur des workflows métiers",
+        "sector": "Transformation Digitale",
+        "description": "Déploiement de modules IA pour l'automatisation documentaire et l'analyse de risques.",
+        "impact": "Impact: gain opérationnel significatif sur les processus critiques."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons de vos enjeux technologiques",
+    "description": "Notre équipe vous accompagne pour structurer, sécuriser et accélérer vos initiatives digitales.",
+    "info": [
+      {
+        "label": "Email",
+        "value": "contact@kronance.com"
+      },
+      {
+        "label": "Téléphone",
+        "value": "+33 1 80 00 00 00"
+      },
+      {
+        "label": "Bureaux",
+        "value": "Paris • Casablanca • Remote"
+      }
+    ],
+    "form": {
+      "aria": "Formulaire de contact",
+      "name": "Nom",
+      "email": "Email professionnel",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer la demande",
+      "success": "Merci, votre message a bien été transmis."
+    }
+  },
+  "ctaSection": {
+    "title": "Construisons ensemble votre prochaine infrastructure digitale",
+    "description": "Échangeons sur vos priorités produit, cloud, sécurité et innovation.",
+    "button": "Contacter Kronance"
+  },
   "useCases": {
     "title": "Cas d'usage",
     "subtitle": "Kronance accompagne toutes les équipes techniques.",
@@ -201,17 +317,20 @@
       {
         "quote": "Kronance a aligné nos équipes plateforme et applicatives dans un même flux de delivery.",
         "name": "Camille Durant",
-        "role": "Head of Engineering, Novagrid"
+        "role": "Head of Engineering",
+        "company": "Novagrid"
       },
       {
         "quote": "Nous avons réduit drastiquement notre temps de déploiement tout en améliorant la sécurité.",
         "name": "Marc Leclerc",
-        "role": "Lead DevOps, Orbital Labs"
+        "role": "Lead DevOps",
+        "company": "Orbital Labs"
       },
       {
         "quote": "La couche IA nous fait gagner un temps énorme sur l'automatisation et les revues.",
         "name": "Sofia Benali",
-        "role": "CTO, Fluxmind"
+        "role": "CTO",
+        "company": "Fluxmind"
       }
     ]
   },
@@ -250,9 +369,9 @@
     "navigationAria": "Navigation du pied de page",
     "links": {
       "product": "Produit",
-      "docs": "Docs",
+      "docs": "Projets",
       "security": "Sécurité",
-      "company": "Entreprise",
+      "company": "À propos",
       "contact": "Contact"
     },
     "copyright": "© {year} Kronance. Tous droits réservés."
