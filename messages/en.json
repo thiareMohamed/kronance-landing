@@ -11,14 +11,47 @@
     "cta": "Get Started"
   },
   "hero": {
-    "badge": "Unified Platform for Modern Teams",
+    "badge": "Global technology infrastructure for modern engineering",
     "title": "Build, Secure, Deploy and Scale — All in One Platform",
-    "subtitle": "A unified platform for DevOps, AI and modern software development teams.",
+    "subtitle": "Kronance unifies development, DevOps, DevSecOps and AI operations into one enterprise-ready platform.",
     "primaryCta": "Get Started",
-    "secondaryCta": "Explore Platform"
+    "secondaryCta": "Explore Platform",
+    "statsTitle": "Platform at a glance",
+    "stats": [
+      {
+        "value": "120K+",
+        "label": "Monthly workloads managed"
+      },
+      {
+        "value": "24",
+        "label": "Cloud regions available"
+      },
+      {
+        "value": "18",
+        "label": "Integrated product modules"
+      }
+    ]
   },
   "trust": {
-    "title": "Trusted by developers, startups and enterprises"
+    "title": "Trusted by engineering teams, SaaS builders and enterprises",
+    "stats": [
+      {
+        "value": "99.99%",
+        "label": "Platform uptime"
+      },
+      {
+        "value": "4.2B",
+        "label": "Events processed monthly"
+      },
+      {
+        "value": "300+",
+        "label": "Enterprise deployments"
+      },
+      {
+        "value": "40+",
+        "label": "Integrated partner services"
+      }
+    ]
   },
   "corePlatform": {
     "eyebrow": "Core Platform",

@@ -7,14 +7,47 @@
     "cta": "Démarrer"
   },
   "hero": {
-    "badge": "Plateforme globale pour les équipes modernes",
+    "badge": "Infrastructure technologique globale pour l'ingénierie moderne",
     "title": "Construisez, sécurisez, déployez et passez à l'échelle — sur une seule plateforme",
-    "subtitle": "Plateforme unifiée pour le DevOps, l'IA, le DevSecOps et le développement web/mobile moderne.",
+    "subtitle": "Kronance unifie développement, DevOps, DevSecOps et opérations IA dans une seule plateforme prête pour l'entreprise.",
     "primaryCta": "Commencer",
-    "secondaryCta": "Explorer la plateforme"
+    "secondaryCta": "Explorer la plateforme",
+    "statsTitle": "Vue d'ensemble de la plateforme",
+    "stats": [
+      {
+        "value": "120K+",
+        "label": "Charges mensuelles opérées"
+      },
+      {
+        "value": "24",
+        "label": "Régions cloud disponibles"
+      },
+      {
+        "value": "18",
+        "label": "Modules produits intégrés"
+      }
+    ]
   },
   "trust": {
-    "title": "Adoptée par des développeurs, des startups et des entreprises"
+    "title": "Adoptée par des équipes engineering, des éditeurs SaaS et des entreprises",
+    "stats": [
+      {
+        "value": "2.1M",
+        "label": "Builds orchestrés / mois"
+      },
+      {
+        "value": "99.99%",
+        "label": "Disponibilité plateforme"
+      },
+      {
+        "value": "38",
+        "label": "Pays desservis"
+      },
+      {
+        "value": "4.8/5",
+        "label": "Satisfaction développeur"
+      }
+    ]
   },
   "corePlatform": {
     "eyebrow": "Plateforme centrale",

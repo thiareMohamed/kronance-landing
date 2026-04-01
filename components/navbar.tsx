@@ -18,7 +18,7 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-border/70 bg-background/85 backdrop-blur-xl">
       <Container className="flex h-20 items-center justify-between">
         <Link href="/" className="group inline-flex items-center gap-2">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-border/70 bg-card text-primary transition-colors group-hover:text-cyan-400">
