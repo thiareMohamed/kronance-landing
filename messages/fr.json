@@ -1,8 +1,8 @@
 {
   "navbar": {
     "platform": "Plateforme",
+    "technology": "Technologie",
     "security": "Sécurité",
-    "pricing": "Tarifs",
     "faq": "FAQ",
     "cta": "Démarrer"
   },
@@ -118,15 +118,25 @@
       }
     ]
   },
-  "developerExperience": {
-    "eyebrow": "Expérience développeur",
-    "title": "Pensé pour les développeurs exigeants",
-    "description": "Une expérience orientée code avec intégration native API, déploiement et sécurité.",
-    "apiTitle": "Exemple d'appel API",
-    "apiLanguage": "API",
-    "deployTitle": "Configuration de déploiement",
-    "deployLanguage": "YAML",
-    "readDocs": "Lire la documentation"
+  "technology": {
+    "eyebrow": "Technologie",
+    "title": "Un socle technologique résilient pour les entreprises numériques",
+    "description": "Kronance propose une architecture cloud modulaire, des opérations augmentées par l'IA et une gouvernance sécurité-by-design pour soutenir une croissance durable.",
+    "pillars": [
+      {
+        "title": "Infrastructure cloud modulaire",
+        "description": "Architecture composable pensée pour la performance, la résilience et l'extension progressive."
+      },
+      {
+        "title": "Opérations augmentées par l'IA",
+        "description": "Intelligence opérationnelle pour l'automatisation, la détection d'anomalies et l'optimisation du delivery."
+      },
+      {
+        "title": "Gouvernance orientée sécurité",
+        "description": "Contrôles intégrés, observabilité continue et cadres de conformité alignés sur les standards enterprise."
+      }
+    ],
+    "cta": "Découvrir notre vision technologique"
   },
   "useCases": {
     "title": "Cas d'usage",
@@ -185,45 +195,6 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Tarification claire pour toutes les tailles d'équipes",
-    "subtitle": "Commencez gratuitement, évoluez sans changer de plateforme.",
-    "plans": {
-      "free": {
-        "name": "Free",
-        "price": "0€ / mois",
-        "description": "Parfait pour les projets personnels et tests.",
-        "features": [
-          "Déploiements de base",
-          "Workflows IA limités",
-          "Monitoring communautaire"
-        ],
-        "cta": "Commencer"
-      },
-      "pro": {
-        "name": "Pro",
-        "price": "49€ / mois",
-        "description": "Pour les équipes produits qui montent en charge.",
-        "features": [
-          "CI/CD avancé et automatisation",
-          "Politiques DevSecOps",
-          "Workspaces multi-environnements"
-        ],
-        "cta": "Passer à Pro"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "Sur mesure",
-        "description": "Pour les organisations globales à forte exigence.",
-        "features": [
-          "Conformité et gouvernance avancées",
-          "SLA et support dédié",
-          "Architecture cloud personnalisée"
-        ],
-        "cta": "Contacter l'équipe"
-      }
-    }
-  },
   "testimonials": {
     "title": "Ce que disent les équipes",
     "items": [
@@ -264,8 +235,8 @@
         "answer": "L'IA est native : automatisation contextuelle, génération assistée de code et analyse sécurité continue."
       },
       "5": {
-        "question": "Le mode dark/light est-il pris en charge ?",
-        "answer": "Oui, avec préférence système et bascule manuelle persistée côté client."
+        "question": "Proposez-vous un accompagnement corporate et stratégique ?",
+        "answer": "Oui. Kronance accompagne les organisations avec du conseil architecture, un onboarding plateforme structuré et un enablement technologique sur le long terme."
       }
     }
   },
