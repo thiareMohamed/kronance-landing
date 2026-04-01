@@ -52,14 +52,14 @@ export function HeroSection() {
               className="mt-10 flex flex-col gap-4 sm:flex-row"
             >
               <a
-                href="#final-cta"
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-violet-600 to-blue-500 px-6 py-3 font-medium text-white shadow-lg shadow-blue-500/25 transition hover:scale-[1.02]"
               >
                 {t("primaryCta")}
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="#platform"
+                href="/services"
                 className="inline-flex items-center justify-center rounded-2xl border border-border bg-card px-6 py-3 font-medium text-foreground transition hover:border-primary/40"
               >
                 {t("secondaryCta")}

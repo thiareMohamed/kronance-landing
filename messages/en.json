@@ -14,12 +14,15 @@
     "faq": "FAQ",
     "cta": "Get Started"
   },
+  "home": {
+    "title": "Home"
+  },
   "hero": {
     "badge": "Global technology infrastructure for modern engineering",
     "title": "Build, Secure, Deploy and Scale — All in One Platform",
     "subtitle": "Kronance unifies development, DevOps, DevSecOps and AI operations into one enterprise-ready platform.",
     "primaryCta": "Get Started",
-    "secondaryCta": "Explore Platform",
+    "secondaryCta": "Explore Services",
     "statsTitle": "Platform at a glance",
     "stats": [
       {
@@ -368,10 +371,10 @@
     "description": "Global technology platform for modern engineering organizations.",
     "navigationAria": "Footer navigation",
     "links": {
-      "product": "Product",
+      "product": "Services",
       "docs": "Projects",
       "security": "Security",
-      "company": "Company",
+      "company": "About",
       "contact": "Contact"
     },
     "copyright": "© {year} Kronance. All rights reserved."

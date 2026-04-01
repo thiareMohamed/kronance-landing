@@ -6,7 +6,7 @@
   "navbar": {
     "about": "À propos",
     "services": "Services",
-    "platform": "Plateforme",
+    "platform": "Expertises",
     "technology": "Technologie",
     "security": "Sécurité",
     "projects": "Projets",
@@ -19,7 +19,7 @@
     "title": "Construisez, sécurisez, déployez et passez à l'échelle — sur une seule plateforme",
     "subtitle": "Kronance unifie développement, DevOps, DevSecOps et opérations IA dans une seule plateforme prête pour l'entreprise.",
     "primaryCta": "Commencer",
-    "secondaryCta": "Explorer la plateforme",
+    "secondaryCta": "Découvrir les services",
     "statsTitle": "Vue d'ensemble de la plateforme",
     "stats": [
       {
@@ -35,6 +35,9 @@
         "label": "Modules produits intégrés"
       }
     ]
+  },
+  "home": {
+    "title": "Accueil"
   },
   "trust": {
     "title": "Adoptée par des équipes engineering, des éditeurs SaaS et des entreprises",
@@ -368,10 +371,11 @@
     "description": "Plateforme globale tout-en-un pour le développement moderne, le cloud, le DevOps, le DevSecOps et l'IA.",
     "navigationAria": "Navigation du pied de page",
     "links": {
-      "product": "Produit",
-      "docs": "Projets",
+      "expertise": "Expertise",
+      "about": "À propos",
+      "technology": "Technologie",
       "security": "Sécurité",
-      "company": "À propos",
+      "projects": "Projets",
       "contact": "Contact"
     },
     "copyright": "© {year} Kronance. Tous droits réservés."
